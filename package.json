@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node dist/server.js",
     "dev": "npx webpack -w --config webpack.config.dev.js",
     "build": "npx webpack --config webpack.config.prod.js"
   },
